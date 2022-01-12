@@ -7,6 +7,6 @@ def get_raw_css(url):
 
     for style_url in styles_url:
         res = load_response(style_url)
-
-        print(res.content)
         # append to bundled and output as files
+
+        bundled_styles.append(res.content.decode())
