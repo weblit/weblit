@@ -10,3 +10,5 @@ def get_raw_css(url):
         # append to bundled and output as files
 
         bundled_styles.append(res.content.decode())
+    
+    return bundled_styles
