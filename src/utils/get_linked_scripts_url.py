@@ -1,5 +1,5 @@
 import re
-from utils.get_raw_html import get_raw_html_from_url
+from src.utils.get_raw_html import get_raw_html_from_url
 
 
 def get_linked_scripts_url(url: str) -> str:

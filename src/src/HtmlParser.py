@@ -1,9 +1,9 @@
-from helpers.clean_attributes import clean_attributes
-from utils.get_linked_css_url import get_linked_css_url
-from utils.get_linked_scripts_url import get_linked_scripts_url
-from src.find_source_css import find_source_css
-from src.find_source_script import find_source_script
-from src.relative_path import relative_path
+from src.helpers.clean_attributes import clean_attributes
+from src.utils.get_linked_css_url import get_linked_css_url
+from src.utils.get_linked_scripts_url import get_linked_scripts_url
+from src.src.find_source_css import find_source_css
+from src.src.find_source_script import find_source_script
+from src.src.relatve_path import relative_path
 
 
 class HtmlParser:

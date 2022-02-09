@@ -1,5 +1,5 @@
 import re
-from utils.get_raw_html import get_raw_html_from_url
+from src.utils.get_raw_html import get_raw_html_from_url
 
 
 def get_linked_css_url(url: str) -> str:
@@ -7,4 +7,4 @@ def get_linked_css_url(url: str) -> str:
 
     linked_css = re.findall(r'<link .*>|<link .*?/>', html)
 
-    return
+    return linked_css
